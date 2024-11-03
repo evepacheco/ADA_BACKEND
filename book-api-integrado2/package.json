@@ -1,0 +1,15 @@
+{
+  "name": "book-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Laurnagaray_Pacheco_Querejeta",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "uuid": "^10.0.0"
+  }
+}

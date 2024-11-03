@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "name": "Julio Cortazar",
+    "born": 1914,
+    "nationality": "Argentino",
+    "genre": [
+      "short story",
+      "poetry",
+      "novel"
+    ]
+  },
+  {
+    "id": "a17f5be0-bc54-4072-a172-dde83cae46f9",
+    "name": "Gabriel Garcia Marquez",
+    "born": 1927,
+    "nationality": "Colombiano",
+    "genre": [
+      "fantasia",
+      "accion"
+    ]
+  },
+  {
+    "id": "56ac95a6-719f-42fa-acc7-20aa1d1bb38e",
+    "name": "Jorge Luis Borges",
+    "born": 1899,
+    "nationality": "Argentino",
+    "genre": [
+      "ficcion",
+      "fantasia", 
+      "short story"
+    ]
+  }
+]

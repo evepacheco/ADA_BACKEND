@@ -1,0 +1,59 @@
+Respondan en grupo las siguientes preguntas sobre GIT:
+• ¿Alguna vez usaste algún sistema de control de versionado? ¿Para 
+qué?
+Hasta el momento nunca use un sistema de control de versiones.
+
+• ¿Tuviste experiencia previa con Git?
+Solamente del curso anterior , que lo enseño pero justo hice el cambio de cimision no llegue a crear nada.
+
+• ¿Qué tan experto te consideras del 1 al 10?
+1 
+• ¿Crees que el uso de GIT mejore tu experiencia trabajando en 
+programación a comparación de como venias trabajando hasta 
+ahora (con figma)?
+Creo que a la hora de un proyecto y/o trabajo grande en equipo es muy recomdable para que no se sobre escriba los mismo codigos dos veces.
+
+• Git es...
+►o un software. 
+o una forma ágil de trabajar.
+o un conjunto de reglas para trabajar en equipo.
+
+• Un commit tiene...
+o fecha y mensaje
+o fecha, autor y computadora
+►o fecha, autor y mensaje 
+
+
+• Seleccionar el orden correcto para persistir los cambios de 
+productos.js.
+o git add productos.js —> se modifica el archivo —> git commit 
+-m "Carrito agregado"
+ ► o git add productos.js —> se modifica el archivo —> git add 
+productos.js —>git commit -m "Carrito agregado"
+
+
+
+• ¿Git permite mantener un historial de cómo fue cambiando el 
+proyecto?
+    Con Git podes tener varias versiones de las modificaciones de un mismo archivo sin tener que estar creando varias copias de ese archivo.
+
+• Te invito a poner en práctica lo visto en unos pequeños pasos.
+Git se aprende con la práctica y es normal equivocarse, por eso vamos a 
+practicar un poco más.
+PASO 1: Hacé lo siguiente en la terminal (bash), luego copiá y pegá en 
+figma todo el texto. Esto incluye tanto lo que ingresaste en la terminal 
+como el texto que devuelve.
+1) Creá la carpeta "mercadoAbierto" con el comando mkdir.
+2) Ingresá a la carpeta con el comando cd.
+3) Creá un repositorio local utilizando el comando correspondiente. 
+¿Recordás cuál es?
+4) Creá un archivo productos.js.
+5) Ejecutá el comando git status y analizá la salida del mismo.
+PASO 2: Continuando desde el punto anterior, hacé lo siguiente en la 
+terminal, luego copiá y pegá todo el texto. Esto incluye tanto lo que 
+ingresaste en la terminal como el texto que devuelve.
+1) Agregá productos.js a Git utilizando git add productos.js.
+2) Ejecutá el git status y compará con el resultado anterior.
+3) Realizá un git commit -m "mi primer commit" (el mensaje del commit 
+debe ser literalmente el mismo que estamos pidiendo).
+4) Ejecutá un git status y compará los resultados con los anteriores

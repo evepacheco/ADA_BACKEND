@@ -1,0 +1,8 @@
+• Ejercicio 3: Servidor de suma 
+Implementar un servidor TCP y un cliente que proporcionen un 
+servicio de suma. 
+o El servidor debe recibir dos números enviados por el 
+cliente, sumarlos, y devolver el resultado al cliente. 
+o El cliente debe poder enviar los dos números al servidor y 
+mostrar la respuesta con la suma de ambos números. 
+o Utilizar una estructura MVC para organizar el código.

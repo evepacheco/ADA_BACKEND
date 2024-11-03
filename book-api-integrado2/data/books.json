@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Cien años de soledad",
+    "author": "Gabriel Garcia Marquez",
+    "year": "1982"
+  },
+  {
+    "id": "3481f9fc-8366-41a6-89ad-62715dc1505e",
+    "title": "El principito",
+    "author": "Antoine de Saint-Exupery",
+    "year": "1943"
+  },
+  {
+    "id": "01ada83d-b28e-4eac-a6b8-335931ef2907",
+    "title": "Homo deus",
+    "author": "Yuval Noah Harari",
+    "year": "2015"
+  }
+]

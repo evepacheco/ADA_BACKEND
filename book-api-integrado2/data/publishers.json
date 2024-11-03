@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "name": "Penguin",
+    "country": "United Kingdom",
+    "titles": 116
+  },
+  {
+    "id": "71a6fea9-accd-4316-a765-8d598dcd5075",
+    "name": "Alfaguara",
+    "country": "Argentina",
+    "titles": 100
+  },
+  {
+    "id": "3c4f04a8-13d7-4b59-91e8-e2a0ec5f9d5f",
+    "name": "Siglo xxi",
+    "country": "Argentina",
+    "titles": 50
+  }
+]

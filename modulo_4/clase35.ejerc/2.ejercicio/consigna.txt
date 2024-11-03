@@ -1,0 +1,8 @@
+• Ejercicio 2: Servidor de tiempo 
+Implementar un servidor TCP y un cliente que proporcionen un 
+servicio de tiempo.  
+o El servidor debe responder con la hora actual cada vez que 
+reciba un mensaje del cliente.  
+o El cliente debe poder solicitar la hora actual al servidor y 
+mostrar la respuesta. 
+o Utilizar una estructura MVC para organizar el código.
