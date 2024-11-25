@@ -1,4 +1,4 @@
-const { log } = require("console");
+
 
 //simulacion de una operacion CPU-BOUND
 // realiza el calculo intensivo qu utiliza la CPU. La ejecucion de este codigo

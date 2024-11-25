@@ -1,6 +1,5 @@
 //Comparacion entre for in y for of
 
-import { FORMERR } from "dns";
 
 //Ejemplo 1: Recorrer un array de autos con for in y con for of 
 
@@ -37,7 +36,7 @@ console.log("Usando for of - Valores");
 
  //Uso de FOR IN 
 
- console.log("Usndo FOR IN(claves de un objeto");
+ console.log("Usando FOR IN(claves de un objeto)");
  for (let propiedad in autito){
     console.log(`Clave: ${propiedad}, Valor: ${autito[propiedad as keyof typeof autito]}`);
     

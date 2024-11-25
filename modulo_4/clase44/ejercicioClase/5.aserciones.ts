@@ -12,14 +12,14 @@ console.log(`La longitud del string es:${longitugString}`);
 //Ejemplo 2: asercion de tipos de union
 //Imaginemos que tenemos una fx que pueda recibir uhn nombre o valor nulo
 
-function obtenerNombresEnMayuscula(nombre:string │ null ): void {
+function obtenerNombresEnMayuscula(nombre:string | null ):string {
     //el compilador no sabe si nombre es un string o null, por lo tano debemos hacer una verificaion
     if (nombre) {
-        return(nombre as string).toUpperCase();
+        return (nombre as string).toUpperCase();
 
     }else{
 
-        return "Nombre no proporcionado"
+      return "Nombre no proporcionado"
     }
 }
 //Pruebas
@@ -29,7 +29,7 @@ console.log(obtenerNombresEnMayuscula(null));
 console.log(`------------------------------------------------------------------`);
 
 //Ejemplo 3: uso asercion con unknow
-//unknom es similar a any. pero mas seguro. DEBEMOS ASEURARNOS DEL TIPOANTES DE USAR
+//unknom es similar a any. pero mas seguro. DEBEMOS ASEURARNOS DEL TIPO ANTES DE USAR
 
 
 let valorDesconocido: unknown =`Este es un valor desconocido`
@@ -37,6 +37,7 @@ let valorDesconocido: unknown =`Este es un valor desconocido`
 //No podemos acceder directamente a las propiedades de ValorDesconocido, porque ts no sabe su tipo, 
 //por eso uasamos aserciones de tipo(una vez que verificaos su tipo)
 
-if(typeof valorDesconocido === "string");
+if(typeof valorDesconocido === "string"){
 let longitud: number =(valorDesconocido as string).length;
 console.log(`La longitud del string desconocido es: ${longitud} `);
+}

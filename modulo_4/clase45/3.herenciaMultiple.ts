@@ -11,11 +11,11 @@ interface Swimming {
 
 class Duck implements Flying , Swimming {
     fly(){
-        console.log(`EL PATO ESTA VIOLANDO`);
+        console.log(`EL PATO ESTA VOLANDO`);
         
     }
     swim(): void {
-        console.log(`eL PATO ESTA NADANDO`);
+        console.log(`EL PATO ESTA NADANDO`);
         
     }
 }

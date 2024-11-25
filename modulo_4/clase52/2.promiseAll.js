@@ -1,4 +1,4 @@
-const { rejects } = require("assert");
+
 
 const promese1 = Promise.resolve(3);
 //creamos una promesa que se resuelve inmediantamente con el valor 3.
@@ -16,7 +16,7 @@ const promese3 = new Promise((resolve, reject) => {
 });
 
 //Usamos promise.all para esperar que todas las promesas se resuelvan
-Promise.all([promese1, promese2, promese3]) //revuelve un array
+Promise.all([promese1, promese2, promese3]) //devuelve un array
     .then((resultados) => {
     console.log("Resultados de todas las promesas: ", resultados);
 

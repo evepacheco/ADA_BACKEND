@@ -5,3 +5,4 @@ const Intervalo = setInterval(() => {
     console.log(`contador (indefenido): ${contador}`);
     
 })
+//ctrol c para parar la ejecucion

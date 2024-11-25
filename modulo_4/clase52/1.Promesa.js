@@ -1,6 +1,6 @@
 //Creamos una promesa
 
-const { error } = require("console");
+
 
 const miPromesa= new Promise((resolve, reject) => {
     console.log(`Estado: Pendiente. La operecion ha comenzado...`);

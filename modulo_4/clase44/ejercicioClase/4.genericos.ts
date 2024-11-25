@@ -1,4 +1,4 @@
-import { log } from "console";
+
 
 //Ejemplo de una Función Generica
 function identidad <T> (valor: T) {
